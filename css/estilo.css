@@ -1,0 +1,38 @@
+/* ------ Layout ------ */
+body{
+	background: url(../imagens/capa.png);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+/* ------ Barra de navegação ------ */
+nav.navbar-cor{
+	background: rgba(139,69,19);
+}
+.navbar-cor .navbar-nav .nav-link{
+	color:  black;
+}
+.navbar-cor .navbar-nav .nav-link:hover{
+	color:  #FF69B4;
+}
+.navbar-cor .link-logo{
+
+}
+.navbar-cor .link-logo  .titulo-1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: #FF69B4;
+	letter-spacing: -0.05em;
+}
+
+.navbar-cor .link-logo  .titulo-2{
+	font-family: Trebuchet MS, sans-serif;
+	color: black;
+	letter-spacing: 0.05em;
+}
+
+.navbar-cor .navbar-toggler {
+	color: black;
+
+	border-color: rgba(255,105,180);
+
+}
