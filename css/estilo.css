@@ -1,4 +1,7 @@
 /* ------ Layout ------ */
+html, body{
+	height:  100%;
+}
 body{
 	background: url(../imagens/capa.png);
 	background-attachment: fixed;
@@ -7,27 +10,34 @@ body{
 }
 /* ------ Barra de navegação ------ */
 nav.navbar-cor{
-	background: rgba(139,69,19);
+	background: black;
+	padding: 10px;
 }
 .navbar-cor .navbar-nav .nav-link{
-	color:  black;
+	color:  rgba(139,69,19);
+	font-size: 1.3em;
+
 }
 .navbar-cor .navbar-nav .nav-link:hover{
 	color:  #FF69B4;
 }
-.navbar-cor .link-logo{
 
+.navbar-cor .link-logo img{
+	padding-bottom: 14px;
 }
+
 .navbar-cor .link-logo  .titulo-1{
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	color: #FF69B4;
 	letter-spacing: -0.05em;
+	font-size: 1.5em;
 }
 
 .navbar-cor .link-logo  .titulo-2{
 	font-family: Trebuchet MS, sans-serif;
-	color: black;
+	color: rgba(139,69,19);
 	letter-spacing: 0.05em;
+	font-size: 1.5em;
 }
 
 .navbar-cor .navbar-toggler {
@@ -35,4 +45,41 @@ nav.navbar-cor{
 
 	border-color: rgba(255,105,180);
 
+}
+
+/* ------ Banner ------ */
+.info{
+	background: rgba(0,0,0, 0.9);
+	margin: 120px 0px;
+	padding: 20px 15px;
+
+}
+.titulo{
+	color: #FF69B4;;
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.foto-banner{
+	display: block;
+}
+.sorvete-tipo, .sorvete-tipo:hover {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.sorvete-tipo{
+	color: black;
+}
+
+.sorvete-tipo:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.icone-carrossel{
+
+	color: rgba(255,255,255);
+	font-size: 2.5em;
 }
