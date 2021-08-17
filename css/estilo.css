@@ -71,7 +71,7 @@ nav.navbar-cor{
 /* ------ Banner ------ */
 .info{
 	background: rgba(0,0,0, 0.9);
-	margin: 120px 0px;
+	margin: 120px 0px 30px 0px;
 	padding: 20px 15px;
 
 }
@@ -112,17 +112,62 @@ nav.navbar-cor{
 .historia{
 	background: rgba(0, 0, 0);
 
-	padding: 20px 15px;
+	padding: 20px 30px;
 
-	margin: 180px 0px;
+	margin: 60px 0px 30px 0px;
 }
-.titulo-historia{
+.icone-historia-1{
+	margin-right: 45px;
+	margin-bottom: 5px;
+}
+.icone-historia-2{
+	margin-left: 45px;
+	margin-bottom: 5px;
+}
+
+@media  (max-width: 991.98px) { 
+	.historia{
+		margin-top: 120px;
+	}
+
+ }
+
+.historia h2{
 	color: #FF69B4;
 	text-align: center;
 	
 }
 
+
 .paragrafo-historia{
 	color: white;
 	margin-top: 50px;
+}
+/* ------ Curiosidades ------ */
+.curiosidades{
+	background: rgba(0, 0, 0);
+	padding: 20px 30px;
+
+	margin: 60px 0px 30px 0px;
+	color: white;
+}
+
+.curiosidades h2{
+	color: #FF69B4;
+	text-align: center;
+}
+
+
+.lista-curiosidades {
+	text-align: justify;
+	padding: 15px;
+	list-style-type: square;
+}
+.icone-curiosidades-1{
+	margin-right: 45px;
+	margin-bottom: 5px;
+}
+.icone-curiosidades-2{
+	margin-left: 45px;
+	margin-bottom: 5px;
 }
