@@ -29,16 +29,19 @@ nav.navbar-cor{
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	color: #FF69B4;
 	letter-spacing: -0.05em;
+	font-weight: 500;
 }
 
 .navbar-cor .link-logo  .titulo-2{
 	font-family: Trebuchet MS, sans-serif;
 	color: rgba(139,69,19);
 	letter-spacing: 0.05em;
+	font-weight: 700;
+
 }
 
 .navbar-cor .navbar-toggler {
-	color: black;
+	color: #FF69B4;
 
 	border-color: rgba(255,105,180);
 
@@ -72,8 +75,8 @@ nav.navbar-cor{
 	padding: 20px 15px;
 
 }
-.titulo{
-	color: #FF69B4;;
+.titulo-banner{
+	color: #FF69B4;
 	margin: 50px 0px;
 	text-align: center;
 }
@@ -85,6 +88,7 @@ nav.navbar-cor{
 	text-decoration: none;
 	padding: 10px;
 	font-size: 1.2em;
+	letter-spacing: -0.06em;
 	text-transform: uppercase;
 }
 .sorvete-tipo{
@@ -100,4 +104,25 @@ nav.navbar-cor{
 
 	color: rgba(255,255,255);
 	font-size: 2.5em;
+}
+
+
+/* ------ História ------ */
+
+.historia{
+	background: rgba(0, 0, 0);
+
+	padding: 20px 15px;
+
+	margin: 180px 0px;
+}
+.titulo-historia{
+	color: #FF69B4;
+	text-align: center;
+	
+}
+
+.paragrafo-historia{
+	color: white;
+	margin-top: 50px;
 }
