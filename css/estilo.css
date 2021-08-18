@@ -125,6 +125,13 @@ nav.navbar-cor{
 	margin-bottom: 5px;
 }
 
+
+.historia h2{
+	color: #FF69B4;
+	text-align: center;
+	
+}
+
 @media  (max-width: 991.98px) { 
 	.historia{
 		margin-top: 120px;
@@ -132,11 +139,7 @@ nav.navbar-cor{
 
  }
 
-.historia h2{
-	color: #FF69B4;
-	text-align: center;
-	
-}
+
 
 
 .paragrafo-historia{
@@ -171,3 +174,71 @@ nav.navbar-cor{
 	margin-left: 45px;
 	margin-bottom: 5px;
 }
+/* ------ Rodapé ------ */
+.rodape{
+	background: black;
+	padding: 0px 10px;
+	margin-top:  40px;
+	position: relative;
+}
+
+
+
+.titulo-rodape-1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: white;
+	letter-spacing: -0.05em;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+.titulo-rodape-2{
+	font-family: Trebuchet MS, sans-serif;
+	color: gray;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+.icone-rodape{
+	color: whitesmoke;
+	filter: grayscale(150%);
+	-webkit-filter: grayscale(150%);
+	-moz-filter: grayscale(150%);
+	padding-bottom: 14px;
+}
+
+.copyright{
+	color: white;
+	float: left;
+	font-size: 0.8em;
+}
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 10px 15px;
+}
+
+footer ul li a{
+	color: white;
+
+}
+footer ul li a:hover{
+	color: rgba(139,69,19);
+
+}
+
+/* ------ Tipografia Responsiva ------ */
+
+@media  (max-width: 991.98px) { 
+	 .historia h2, .curiosidades h2 {
+		font-size: 2em;
+	}
+
+	body{
+		font-size: 0.8em;
+	}
+
+ }
