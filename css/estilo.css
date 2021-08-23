@@ -182,7 +182,8 @@ footer{
 	background: black;
 	padding: 0px 10px;
 	margin-top:  40px;
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 
 .titulo-rodape-1, .titulo-rodape-2{
@@ -232,7 +233,7 @@ footer ul li a{
 
 }
 footer ul li a:hover{
-	color: rgba(139,69,19);
+	color:  #FF69B4;
 
 }
 
@@ -262,6 +263,38 @@ footer ul li a:hover{
 .jumbo p{
 	font-size: 1.3em;
 }
+
+/* ------ Página de Contato ------ */
+
+.contato{
+	background: rgba(0, 0, 0, 0.9);
+	margin: 40px 0px 30px 0px;
+	padding: 40px;
+	color: white;
+	text-align: center;
+}
+.contato h3{
+	margin-bottom: 15px;
+	color: #FF69B4;
+
+}
+
+.wpp-icon{
+	color: #25D366;
+}
+
+.ig-icon{
+	color: #bc2a8d;
+}
+
+.mail-icon{
+	color: #B23121;
+}
+
+.proprietaria{
+	border-radius: 15px;
+}
+
 
 
 /* ------ Tipografia Responsiva ------ */
