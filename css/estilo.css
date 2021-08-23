@@ -9,6 +9,9 @@ body{
 
 }
 /* ------ Barra de navegação ------ */
+header{
+	margin-bottom: 100px;
+}
 nav.navbar-cor{
 	background: black;
 	padding: 10px;
@@ -71,7 +74,7 @@ nav.navbar-cor{
 /* ------ Banner ------ */
 .info{
 	background: rgba(0,0,0, 0.9);
-	margin: 120px 0px 30px 0px;
+	margin: 60px 0px 30px 0px;
 	padding: 20px 15px;
 
 }
@@ -175,11 +178,16 @@ nav.navbar-cor{
 	margin-bottom: 5px;
 }
 /* ------ Rodapé ------ */
-.rodape{
+footer{
 	background: black;
 	padding: 0px 10px;
 	margin-top:  40px;
 	position: relative;
+}
+
+.titulo-rodape-1, .titulo-rodape-2{
+	font-size: 1.3em;
+	margin-top: 30px;
 }
 
 
@@ -189,7 +197,6 @@ nav.navbar-cor{
 	color: white;
 	letter-spacing: -0.05em;
 	font-weight: 500;
-	font-size: 1.3em;
 }
 
 .titulo-rodape-2{
@@ -197,7 +204,6 @@ nav.navbar-cor{
 	color: gray;
 	letter-spacing: 0.05em;
 	font-weight: 700;
-	font-size: 1.3em;
 }
 .icone-rodape{
 	color: whitesmoke;
@@ -230,11 +236,43 @@ footer ul li a:hover{
 
 }
 
+/* ------ Cartões de Receitas ------ */
+.jumbo{
+	background: black;
+	color: white;
+	margin: 40px 0px 30px 0px;
+	padding: 15px;
+
+}
+
+.jumbo a{
+	text-decoration: none;
+	font-family: Trebuchet MS, sans-serif;
+	color: #FF69B4;
+	font-weight: 600;
+	font-size: 1.6em;
+}
+
+.jumbo a:hover{
+	color: rgba(139,69,19);
+	text-decoration: underline;
+
+}
+
+.jumbo p{
+	font-size: 1.3em;
+}
+
+
 /* ------ Tipografia Responsiva ------ */
 
 @media  (max-width: 991.98px) { 
 	 .historia h2, .curiosidades h2 {
 		font-size: 2em;
+	}
+
+	.media-body h3{
+		font-size: 1.5em;
 	}
 
 	body{
