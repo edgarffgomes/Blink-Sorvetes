@@ -24,6 +24,8 @@ nav.navbar-cor{
 	color:  #FF69B4;
 }
 
+
+
 .navbar-cor .link-logo img{
 	padding-bottom: 14px;
 }
@@ -292,11 +294,65 @@ footer ul li a:hover{
 }
 
 .proprietaria{
-	border-radius: 15px;
+	border-radius: 60px;
 }
 
+/* ------ Recipes ------ */
 
+.recipes{
+	background: rgba(0, 0, 0, 0.9);
+	margin: 40px 0px 30px 0px;
+	padding: 40px;
+	color: white;
+	text-align: center;
+}
 
+.rec-tutorial{
+	background: black;
+	padding: 40px;
+	margin: 20px;
+}
+
+.rec-tutorial h3{
+	font-size: 2.5em;
+	margin-bottom: 60px;
+	color: #FF69B4;
+	font-weight: 600;
+	letter-spacing: -0.03em;
+}
+
+.recipes h4{
+	margin-top: 80px;
+	margin-left: 80px;
+	color: rgba(139,69,19);
+	font-size: 2em;
+	font-weight: 570;
+}
+
+.recipes ul{
+	list-style: none;
+	text-align: left;
+
+	margin-bottom: 40px;
+}
+
+.recipes p{
+	text-align: left;
+}
+
+.imagem-deco-acai{
+	background: url(../imagens/açai-fruit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.recipes span{
+	font-size: 0.8em;
+}
+
+.recipes span img{
+	border-radius: 60px;
+}
 /* ------ Tipografia Responsiva ------ */
 
 @media  (max-width: 991.98px) { 
@@ -312,4 +368,15 @@ footer ul li a:hover{
 		font-size: 0.8em;
 	}
 
+ }
+
+ @media (min-width:  768px) and (max-width: 991.98px) {
+ 	.rec-tutorial{
+ 		margin: 0px;
+ 	}
+
+ 	.post{
+
+ 		display: none;
+ 	}
  }
