@@ -341,7 +341,12 @@ footer ul li a:hover{
 }
 
 .imagem-deco-acai{
-	background: url(../imagens/açai-fruit.jpg);
+	background: url(../imagens/açai-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagem-deco-cafe{
+	background: url(../imagens/coffee-deco.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -350,9 +355,10 @@ footer ul li a:hover{
 	font-size: 0.8em;
 }
 
-.recipes span img{
+.usuario{
 	border-radius: 60px;
 }
+
 /* ------ Tipografia Responsiva ------ */
 
 @media  (max-width: 991.98px) { 
