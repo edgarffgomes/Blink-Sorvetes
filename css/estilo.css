@@ -360,6 +360,11 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.imagem-deco-chocolate{
+	background: url(../imagens/chocolate-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .recipes span{
 	font-size: 0.8em;
