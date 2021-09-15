@@ -345,6 +345,11 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.imagem-deco-baunilha{
+	background: url(../imagens/vanilla-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .imagem-deco-cafe{
 	background: url(../imagens/coffee-deco.jpg);
 	background-repeat: no-repeat;
