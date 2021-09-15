@@ -350,6 +350,11 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.imagem-deco-biscoito{
+	background: url(../imagens/biscoito-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .imagem-deco-cafe{
 	background: url(../imagens/coffee-deco.jpg);
 	background-repeat: no-repeat;
@@ -365,8 +370,8 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.imagem-deco-biscoito{
-	background: url(../imagens/biscoito-deco.jpg);
+.imagem-deco-coco{
+	background: url(../imagens/coconut-deco.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
