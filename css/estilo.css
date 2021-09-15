@@ -380,6 +380,11 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.imagem-deco-flocos{
+	background: url(../imagens/flocos-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .recipes span{
 	font-size: 0.8em;
