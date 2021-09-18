@@ -385,6 +385,11 @@ footer ul li a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.imagem-deco-morango{
+	background: url(../imagens/strawberry-deco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .recipes span{
 	font-size: 0.8em;
