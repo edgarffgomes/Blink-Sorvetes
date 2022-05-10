@@ -20,4 +20,4 @@
 
 ## Link de acesso:
 
-html
+https://edgarffgomes.github.io/Blink-Sorvetes/
